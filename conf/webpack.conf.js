@@ -61,6 +61,7 @@ module.exports = {
     })
   ],
   devtool: 'source-map',
+  target: 'node',
   output: {
     path: path.join(process.cwd(), conf.paths.tmp),
     filename: 'index.js'

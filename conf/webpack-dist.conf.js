@@ -65,6 +65,10 @@ module.exports = {
       }
     })
   ],
+  node: {
+    fs: "empty", 
+    net: "empty"
+  },
   output: {
     path: path.join(process.cwd(), conf.paths.dist),
     filename: '[name]-[hash].js'
