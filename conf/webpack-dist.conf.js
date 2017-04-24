@@ -43,6 +43,12 @@ module.exports = {
         loaders: [
           'html-loader'
         ]
+      }, 
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: [
+          'file-loader'
+        ]
       }
     ]
   },

@@ -5,6 +5,8 @@ import 'angular-ui-router';
 import routesConfig from './routes';
 export const app = 'app';
 
+import 'jquery/dist/jquery';
+
 angular
   .module(app, ['ui.router'])
   .config(routesConfig)
