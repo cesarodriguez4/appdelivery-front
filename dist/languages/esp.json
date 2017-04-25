@@ -1,0 +1,15 @@
+{
+  "Menu": {
+    "DASHBOARD": "Tablero",
+    "USERS_WEB": "Usuarios web",
+    "ESTABLISHMENTS": "Establecimientos",
+    "CATEGORY_MAIN": "Categorias Principales",
+    "NOTIFICATIONS": "Notificaciones",
+    "FINANCE": "Finanzas",
+    "SETTINGS": "Configuración",
+    "NAVEGATION": "Navegación",
+    "USER_SYSTEM": "Usuarios del sistema",
+    "PERMITS": "Permisos",
+    "ENVELOPE": "Mensajeria"
+  }
+}

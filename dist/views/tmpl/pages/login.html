@@ -1,0 +1,39 @@
+<div class="page page-core page-login">
+
+  <div class="text-center"><h3 class="text-light text-white"><span class="text-lightred">TODO</span>CONDELIVERY</h3></div>
+
+  <div class="container w-420 p-15 bg-white mt-40 text-center">
+
+
+    <h2 class="text-light text-greensea">Inicio de sesión</h2>
+
+    <form name="form" class="form-validation mt-20" novalidate>
+
+      <div class="form-group">
+        <input type="email" class="form-control underline-input" placeholder="Email" ng-model="user.email" required>
+      </div>
+
+      <div class="form-group">
+        <input type="password" placeholder="Password" class="form-control underline-input" ng-model="user.password" required>
+      </div>
+
+      <div class="form-group text-left mt-20">
+        <label class="checkbox checkbox-custom checkbox-custom-sm inline-block">
+          <input type="checkbox"><i></i> Recordar
+        </label>
+        <a ui-sref="core.forgotpass" class="pull-right mt-10">¿Olvidaste tu contraseña?</a>
+      </div>
+
+    </form>
+
+    <hr class="b-3x"/>
+
+    <div class="bg-slategray lt wrap-reset mt-40">
+      <p class="m-0">
+				<a ng-click="login()" ui-sref="app.dashboard" class="text-uppercase">INICIAR SESIÓN </a>
+			</p>
+    </div>
+
+  </div>
+
+</div>
