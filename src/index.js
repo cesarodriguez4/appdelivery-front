@@ -5,7 +5,7 @@ import 'angular-ui-router';
 import routesConfig from './routes';
 export const app = 'app';
 
-import 'jquery/dist/jquery';
+import 'bootstrap/dist/css/bootstrap.css';
 
 angular
   .module(app, ['ui.router'])

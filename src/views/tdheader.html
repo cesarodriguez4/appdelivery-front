@@ -1,11 +1,11 @@
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#contenido" aria-controls="contenido" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler navbar-toggler-right mt-4 mr-3" type="button" data-toggle="collapse" data-target="#contenido" aria-controls="contenido" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
    </button>
    <a  class="navbar-brand" href="#">
     <img src="../assets/images/logo.png" width="120" height="90">
    </a>
-   <div class="collapse navbar-collapse" id="contenido">
+   <div class="collapse navbar-collapse col-lg-5" id="contenido">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
@@ -23,9 +23,10 @@
         <a class="nav-link" href="#">Más</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Buscar...">
-      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar articulo</button>
-    </form>
   </div>
+  <form class="form-inline my-2 my-lg-0 col-lg-7">
+    <button class="btn btn-primary mr-2 col-3 col-md-3 my-2 col-lg-2">Cuenta</button>
+    <input class="form-control mr-sm-2 col-8 col-md-8 col-lg-4" type="text" placeholder="Buscar...">
+    <button class="btn btn-outline-danger my-2 my-sm-0 col-12 col-md-12 col-lg-3" type="submit">Buscar articulo</button>
+  </form>
 </nav>
