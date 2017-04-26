@@ -1,2 +1,2 @@
-# appdelivery-front
+# Just using webpack
 Front end
